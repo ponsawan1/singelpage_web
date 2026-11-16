@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เกมน่าสนใจจากความคิดเห็น | Game Picks</title>
+  <link rel="stylesheet" href="style (1).css">
+</head>
+<body>
+
+  <!-- 1. ส่วนหัวเว็บ (Header) -->
+  <header class="site-header">
+    <p class="eyebrow">MY GAME COLLECTION</p>
+    <h1>เกมโปรดที่อยากชวนให้ลอง</h1>
+    <p>รวม 6 เกมหลากหลายแนว ตั้งแต่การผจญภัยไปจนถึงการต่อสู้สุดมันส์</p>
+  </header>
+
+  <main>
+    <nav class="filters" aria-label="กรองตามแนวเกม">
+      <button class="filter-btn active" data-filter="all" aria-pressed="true">ทั้งหมด</button>
+      <button class="filter-btn" data-filter="rpg" aria-pressed="false">ผจญภัย / RPG</button>
+      <button class="filter-btn" data-filter="strategy" aria-pressed="false">วางแผน / กลยุทธ์</button>
+      <button class="filter-btn" data-filter="multiplayer" aria-pressed="false">ต่อสู้ / เล่นหลายคน</button>
+    </nav>
+
+    <section class="gallery" aria-label="รายชื่อเกม">
+      <article class="card" data-category="rpg">
+        <div class="card-img">
+          <img src="terraria.png" alt="Terraria artwork">
+        </div>
+        <div class="card-body">
+          <span class="tag">แซนด์บ็อกซ์ · ผจญภัย</span>
+          <h2>Terraria</h2>
+          <p>ออกสำรวจโลก 2D ขุดแร่ สร้างบ้าน และต่อสู้กับบอสต่างๆ</p>
+        </div>
+      </article>
+
+      <article class="card" data-category="strategy">
+        <div class="card-img">
+          <img src="lobotomy crop.png" alt="Lobotomy Corporation artwork">
+        </div>
+        <div class="card-body">
+          <span class="tag">บริหารจัดการ · สยองขวัญ</span>
+          <h2>Lobotomy Corporation</h2>
+          <p>บริหารองค์กรกักกันสิ่งผิดปกติ ดูแลพนักงาน และรับมือกับเหตุการณ์ที่คาดเดาไม่ได้</p>
+        </div>
+      </article>
+
+      <article class="card" data-category="strategy">
+        <div class="card-img">
+          <img src="libary of ruina.png" alt="Library of Ruina artwork">
+        </div>
+        <div class="card-body">
+          <span class="tag">วางแผน · สร้างเด็ค</span>
+          <h2>Library of Ruina</h2>
+          <p>จัดทีมบรรณารักษ์ วางแผนการต่อสู้ด้วยการ์ด และค้นพบเรื่องราวของห้องสมุด</p>
+        </div>
+      </article>
+
+      <article class="card" data-category="rpg">
+        <div class="card-img">
+          <img src="limbus company.png" alt="Limbus Company artwork">
+        </div>
+        <div class="card-body">
+          <span class="tag">RPG · วางแผนการต่อสู้</span>
+          <h2>Limbus Company</h2>
+          <p>ออกเดินทางไปกับเหล่าผู้โดยสาร เก็บกู้กิ่งทองคำ และเลือกจังหวะต่อสู้เป็นทีม</p>
+        </div>
+      </article>
+
+      <article class="card" data-category="multiplayer">
+        <div class="card-img">
+          <img src="tf2.png" alt="Team Fortress 2 artwork">
+        </div>
+        <div class="card-body">
+          <span class="tag">แอ็กชัน · ทีม · เล่นฟรี</span>
+          <h2>Team Fortress 2</h2>
+          <p>เลือกคลาสที่ถนัด แล้วร่วมทีมบุกหรือป้องกันในเกมยิงมุมมอง fps</p>
+        </div>
+      </article>
+
+      <article class="card" data-category="multiplayer">
+        <div class="card-img">
+          <img src="yomi.png" alt="Your Only Move Is HUSTLE artwork">
+        </div>
+        <div class="card-body">
+          <span class="tag">ต่อสู้ · เล่นกับเพื่อน</span>
+          <h2>Your Only Move Is HUSTLE</h2>
+          <p>เกมต่อสู้แบบผลัดกันวางแผน เลือกท่าทางและอ่านเกมเพื่อเอาชนะคู่ต่อสู้</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 | รวมเกมที่ชอบและอยากแนะนำ</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
